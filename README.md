@@ -30,21 +30,21 @@ Nosso jogo será desenvolvido no Godot. Assim, nossa ideia é de o jogo se passe
 - *Tela de audio*: Aumentar ou diminuir os sons do jogo.
 
 <h3 align="center">Tela inicial</h3>
-<img src="imgs/menu_inicial.jpeg" alt="Tela inicial"> 
+<img src="menu_inicial.jpeg" alt="Tela inicial"> 
  
 - *Começar:* Iniciar o jogo. 
 - *Configurações:* Ir para tela de configurações para o jogador alterar o que desejar.
 - *Sair:* Fechar o jogo.
 
 <h3 align="center">Tela começar jogo</h3>
-<img src="imgs/menu_comecar.jpeg" alt="Tela começar jogo">
+<img src="menu_comecar.jpeg" alt="Tela começar jogo">
 
 - *Novo jogo:* Iniciar o jogo do zero com um novo save.
 - *Continuar:* Continuar jogando da onde parou no último save criado.
 - *Voltar:* Voltar à tela anterior.
 
 <h3 align="center">Tela de configurações</h3>
-<img src="imgs/menu_configuracoes.jpeg" alt="Configurações">
+<img src="menu_configuracoes.jpeg" alt="Configurações">
 
 - *Acessibilidade:* Ir à tela de acessibilidades.
 - *Controles:* Ir à tela dos controles do jogo.
@@ -52,7 +52,7 @@ Nosso jogo será desenvolvido no Godot. Assim, nossa ideia é de o jogo se passe
 - *Voltar:* Voltar à tela anterior.
 
 <h3 align="center">Tela de acessibilidades</h3>
-<img src="imgs/menu_acessibilidades.jpeg" alt="Acessibilidade"> 
+<img src="menu_acessibilidades.jpeg" alt="Acessibilidade"> 
 
 - *Legenda:* Ativar ou desativar legendas nos diálogos do protagonista ou dos NPCs, ideal para pessoas que sofrem de deficiência auditiva.
 - *Dificuldade:* O jogador tem a opção de escolher a dificuldade que quer jogar.
@@ -61,13 +61,13 @@ Nosso jogo será desenvolvido no Godot. Assim, nossa ideia é de o jogo se passe
 - *Voltar:* Voltar à tela anterior.
 
 <h3 align="center">Tela de controles</h3>
-<img src="imgs/menu_controles.jpeg" alt="Controles">
+<img src="menu_controles.jpeg" alt="Controles">
 
 - *Controles:* Controles pré-definidos no jogo, podendo ser alterados para qualquer tecla ou botão do mouse que o jogador desejar.
 - *Voltar:* Voltar à tela anterior.
 
 <h3 align="center">Tela de áudio</h3>
-<img src="imgs/menu_audio.jpeg" alt="Áudio">
+<img src="menu_audio.jpeg" alt="Áudio">
 
 - *Volume geral:* Aumentar ou dimimuir o som de tudo no jogo.
 - *Música:* Aumentar ou dimunuir o volume da música que toca ao fundo.
