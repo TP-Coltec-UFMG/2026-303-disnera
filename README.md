@@ -74,6 +74,14 @@ Nosso jogo será desenvolvido no Godot. Assim, nossa ideia é de o jogo se passe
 - *Efeitos sonoros:* Aumentar ou diminuir o som dos efeitos do jogo
 - *Voltar:* Voltar à tela anterior.
 
+## Gameplay
+
+O jogo é um *Dungeon Crawler* em visão *top-down*. O jogador deverá atravessar diversos níveis da "masmorra" (o Esgoto), em busca de entender o mistério da Disnera:
+
+<h3 align="center">Imagens de gameplay:</h3>
+<img src="gameplay.png" alt="Imagem de gameplay mostrando o protagonista fazendo um ataque na superfície">
+<p align="center"><small>(Por enquanto, o protagonista não entra no Esgoto)</small></p>
+
 ## Conclusão
 
 O projeto do jogo Disnera é uma iniciativa pequena, mas ambiciosa, para criar uma experiência imersiva e narrativa dentro de um ambiente inspirado no próprio COLTEC, misturando elementos de ação, exploração e suspense. Além de desenvolver um jogo com mecânicas e interfaces funcionais, o grupo pretende construir uma atmosfera envolvente, utilizando a lenda criada dentro do jogo, em torno da criatura Disnera, como o elemento principal da narrativa. Dessa forma, o trabalho também contribui para o aprendizado prático de conceitos de programação orientada a objetos, desenvolvimento de interfaces e organização de projetos em equipe, unindo criatividade e desenvolvimento técnico em um único projeto que promete ser divertido, intuitivo e desafiador.
