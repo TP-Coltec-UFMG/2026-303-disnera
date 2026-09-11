@@ -74,6 +74,11 @@ Nosso jogo será desenvolvido no Godot. Assim, nossa ideia é de o jogo se passe
 - *Efeitos sonoros:* Aumentar ou diminuir o som dos efeitos do jogo
 - *Voltar:* Voltar à tela anterior.
 
+## Acessibilidade 
+Foram implementados três recursos de acessibilidade no sistema: modo de alto contraste, aumento do tamanho das fontes e remapeamento dos controles. A seguir, são apresentadas imagens demonstrando cada recurso e seus respectivos comparativos antes e depois da implementação
+
+
+
 ## Gameplay
 
 O jogo é um *Dungeon Crawler* em visão *top-down*. O jogador deverá atravessar diversos níveis da "masmorra" (o Esgoto), em busca de entender o mistério da Disnera:
