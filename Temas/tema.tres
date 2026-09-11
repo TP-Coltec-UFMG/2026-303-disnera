@@ -1,0 +1,6 @@
+[gd_resource type="Theme" format=3 uid="uid://pa53kggwnyy3"]
+
+[ext_resource type="FontFile" uid="uid://brx3i7xoguy6i" path="res://Fonts/Pixelmax-Regular.otf" id="1_fv4dt"]
+
+[resource]
+default_font = ExtResource("1_fv4dt")

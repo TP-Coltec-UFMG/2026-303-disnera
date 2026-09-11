@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://bpti37ccnnve2"]
+
+[node name="Portao" type="Area2D" unique_id=1421084165]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1525897397]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1298778800]

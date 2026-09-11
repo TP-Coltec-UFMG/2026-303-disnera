@@ -1,0 +1,65 @@
+[gd_scene format=3 uid="uid://cim2u2hmewyxo"]
+
+[ext_resource type="Script" uid="uid://c3my1507gkc6l" path="res://Scripts/hud.gd" id="1_ahhtf"]
+[ext_resource type="Texture2D" uid="uid://da6paxdcq2l46" path="res://Imagens/UI/Heart_cheio.png" id="2_oo0fn"]
+[ext_resource type="Theme" uid="uid://pa53kggwnyy3" path="res://Temas/tema.tres" id="3_5ysmq"]
+
+[node name="HUD" type="CanvasLayer" unique_id=912128310]
+script = ExtResource("1_ahhtf")
+
+[node name="Coracao" type="HBoxContainer" parent="." unique_id=1085074735]
+offset_left = 11.0
+offset_top = 11.0
+offset_right = 107.0
+offset_bottom = 27.0
+scale = Vector2(2.5, 2.5)
+
+[node name="Coracao1" type="TextureRect" parent="Coracao" unique_id=983947739]
+layout_mode = 2
+texture = ExtResource("2_oo0fn")
+stretch_mode = 2
+
+[node name="Coracao5" type="TextureRect" parent="Coracao" unique_id=1935499715]
+layout_mode = 2
+texture = ExtResource("2_oo0fn")
+stretch_mode = 2
+
+[node name="Coracao2" type="TextureRect" parent="Coracao" unique_id=1383747518]
+layout_mode = 2
+texture = ExtResource("2_oo0fn")
+stretch_mode = 2
+
+[node name="Coracao3" type="TextureRect" parent="Coracao" unique_id=1654548630]
+layout_mode = 2
+texture = ExtResource("2_oo0fn")
+stretch_mode = 2
+
+[node name="Coracao4" type="TextureRect" parent="Coracao" unique_id=1592694385]
+layout_mode = 2
+texture = ExtResource("2_oo0fn")
+stretch_mode = 2
+
+[node name="FadeOut" type="ColorRect" parent="." unique_id=382446488]
+modulate = Color(1, 1, 1, 0)
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 1)
+
+[node name="ObjetivoPanel" type="Panel" parent="." unique_id=893891709]
+self_modulate = Color(1, 1, 1, 0)
+offset_left = 20.0
+offset_top = 67.0
+offset_right = 264.0
+offset_bottom = 106.0
+
+[node name="Objetivo" type="Label" parent="ObjetivoPanel" unique_id=260720805]
+layout_mode = 0
+offset_left = 8.0
+offset_top = 11.0
+offset_right = 242.0
+offset_bottom = 41.0
+theme = ExtResource("3_5ysmq")
+text = "Derrote todos os inimigos."

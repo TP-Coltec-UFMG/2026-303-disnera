@@ -1,0 +1,55 @@
+[gd_scene format=3 uid="uid://d3f7mqw2ehldn"]
+
+[ext_resource type="Script" uid="uid://c75je8f2eyrcb" path="res://Scripts/alavanca.gd" id="1_yv25m"]
+[ext_resource type="Texture2D" uid="uid://w5j5rspvbvwx" path="res://Imagens/AlavancaDesativada.png" id="2_ay2cj"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_g4v7s"]
+size = Vector2(20, 18.330904)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_prompt"]
+bg_color = Color(0.06, 0.06, 0.08, 0.92)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.9, 0.9, 0.95, 0.95)
+corner_radius_top_left = 7
+corner_radius_top_right = 7
+corner_radius_bottom_right = 7
+corner_radius_bottom_left = 7
+
+[node name="Alavanca" type="Area2D" unique_id=726839949]
+script = ExtResource("1_yv25m")
+metadata/_edit_group_ = true
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=590202472]
+texture = ExtResource("2_ay2cj")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=993575200]
+position = Vector2(0, 0.50087476)
+scale = Vector2(0.58537406, 0.600175)
+shape = SubResource("RectangleShape2D_g4v7s")
+
+[node name="PromptE" type="PanelContainer" parent="."]
+visible = false
+z_index = 20
+mouse_filter = 2
+offset_left = -13.0
+offset_top = -35.0
+offset_right = 13.0
+offset_bottom = -9.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_prompt")
+
+[node name="Label" type="Label" parent="PromptE"]
+layout_mode = 2
+mouse_filter = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 2
+theme_override_font_sizes/font_size = 16
+text = "E"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="body_exited" from="." to="." method="_on_body_exited"]

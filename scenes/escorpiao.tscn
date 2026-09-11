@@ -1,0 +1,107 @@
+[gd_scene format=3]
+
+[ext_resource type="Texture2D" uid="uid://dtnm3l1q6r3qn" path="res://Imagens/raTo.png" id="1_l2hbp"]
+[ext_resource type="Script" path="res://Scripts/escorpiao.gd" id="1_w1ktq"]
+[ext_resource type="AudioStream" uid="uid://dv541o6e1cpib" path="res://Musica/ElevenLabs_Guincho_curioso_de_rato_explorando_um_novo_ambiente,_inquisitivo_e_suave.mp3" id="3_lon7t"]
+[ext_resource type="PackedScene" uid="uid://bgyup1epwu0ab" path="res://scenes/barradevida.tscn" id="4_j6ieo"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_w1ktq"]
+atlas = ExtResource("1_l2hbp")
+region = Rect2(0, 64, 128, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lon7t"]
+atlas = ExtResource("1_l2hbp")
+region = Rect2(128, 64, 128, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_j6ieo"]
+atlas = ExtResource("1_l2hbp")
+region = Rect2(256, 64, 128, 64)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_g4v7s"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_w1ktq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lon7t")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_j6ieo")
+}],
+"loop": 1,
+"name": &"Rato",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_g4v7s"]
+size = Vector2(45, 12.5)
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_g4v7s"]
+radius = 375.19196
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_u6wux"]
+size = Vector2(95, 31)
+
+[node name="Escorpiao" type="Node2D"]
+
+[node name="Escorpiao" type="CharacterBody2D" parent="."]
+collision_layer = 4
+collision_mask = 2
+script = ExtResource("1_w1ktq")
+speed = 62.0
+vida_max = 55
+forca = 8
+attack_interval = 1.2
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Escorpiao" unique_id=1753200585]
+visible = false
+scale = Vector2(0.82, 0.55)
+modulate = Color(0.78, 0.53, 0.25, 1)
+sprite_frames = SubResource("SpriteFrames_g4v7s")
+animation = &"Rato"
+frame_progress = 0.65916616
+
+[node name="SilhuetaEscorpiao" type="Polygon2D" parent="Escorpiao"]
+polygon = PackedVector2Array(-38, 10, -26, -7, -13, -12, 7, -10, 20, -4, 27, 5, 18, 11, 7, 13, -8, 14, -22, 17)
+color = Color(0.55, 0.3, 0.08, 1)
+
+[node name="Cauda" type="Line2D" parent="Escorpiao"]
+points = PackedVector2Array(18, 0, 31, -10, 37, -25, 31, -36, 21, -39)
+width = 7.0
+default_color = Color(0.55, 0.3, 0.08, 1)
+
+[node name="Ferrao" type="Polygon2D" parent="Escorpiao"]
+polygon = PackedVector2Array(16, -43, 29, -42, 23, -31)
+color = Color(0.72, 0.4, 0.1, 1)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Escorpiao" unique_id=955306777]
+position = Vector2(0, 7.5)
+scale = Vector2(2, 2)
+shape = SubResource("RectangleShape2D_g4v7s")
+
+[node name="Sight" type="Area2D" parent="Escorpiao" unique_id=2022058887]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Escorpiao/Sight" unique_id=122932039]
+shape = SubResource("CircleShape2D_g4v7s")
+
+[node name="TakeDamage" type="AudioStreamPlayer2D" parent="Escorpiao" unique_id=1849523089]
+stream = ExtResource("3_lon7t")
+
+[node name="Barradevida" parent="Escorpiao" unique_id=788145355 instance=ExtResource("4_j6ieo")]
+position = Vector2(-15, 20.999996)
+scale = Vector2(1.6, 1.6)
+
+[node name="hitbox" type="Area2D" parent="Escorpiao" unique_id=1547493331]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Escorpiao/hitbox" unique_id=1252249665]
+position = Vector2(0.5, 6.5)
+shape = SubResource("RectangleShape2D_u6wux")
+
+[node name="TimerAtaque" type="Timer" parent="." unique_id=1678789468]
+
+[connection signal="body_entered" from="Escorpiao/Sight" to="Escorpiao" method="_on_sight_body_entered"]
+[connection signal="body_exited" from="Escorpiao/Sight" to="Escorpiao" method="_on_sight_body_exited"]
+[connection signal="body_entered" from="Escorpiao/hitbox" to="Escorpiao" method="_on_hitbox_body_entered"]
+[connection signal="body_exited" from="Escorpiao/hitbox" to="Escorpiao" method="_on_hitbox_body_exited"]
+[connection signal="timeout" from="TimerAtaque" to="Escorpiao" method="_on_timer_ataque_timeout"]

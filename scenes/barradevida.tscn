@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://bgyup1epwu0ab"]
+
+[ext_resource type="Script" uid="uid://d4kreq1f6dydu" path="res://Scripts/barradevida.gd" id="1_4ryhr"]
+[ext_resource type="Texture2D" uid="uid://6v14glth1v6k" path="res://Imagens/LifeBarMiniUnder.png" id="1_mjlim"]
+[ext_resource type="Texture2D" uid="uid://bu06r1ebvi6fq" path="res://Imagens/LifeBarMiniProgress.png" id="2_4ryhr"]
+
+[node name="Barradevida" type="Node2D" unique_id=1148915217]
+script = ExtResource("1_4ryhr")
+
+[node name="barradevida" type="Sprite2D" parent="." unique_id=1041014823]
+texture = ExtResource("1_mjlim")
+centered = false
+
+[node name="vida" type="Sprite2D" parent="." unique_id=1604280406]
+texture = ExtResource("2_4ryhr")
+centered = false
+region_enabled = true
+region_rect = Rect2(0, 0, 18, 4)
