@@ -110,6 +110,14 @@ O jogo é um *Dungeon Crawler* em visão *top-down*. O jogador deverá atravessa
 <p>A terceira fase mantém os mesmos inimigos e a mesma mecânica de progressão, na qual o jogador precisa eliminar todos os inimigos para avançar. Como novidade, é introduzido o escorpião, um inimigo que se afasta do jogador enquanto realiza ataques à distância, lançando projéteis de veneno que causam dano ao jogador.</p>
 <img src="imagens/Escorpiao.jpg" alt="Imagem do Escorpiao">
 
+<h3 align="center">Luta contra o Boss</h3>
+<p>A batalha final ocorre contra o boss Disnera, que possui diferentes tipos de ataque. Ele pode realizar ataques corpo a corpo, lançar uma rajada de veneno que causa dano em área e arremessar grandes pedaços de fezes que caem do céu, causando dano ao jogador. Após derrotar o boss, o jogador vence a partida e consegue finalmente sair do esgoto.</p>
+
+<img src="imagens/ChefaoArea.jpg" alt="Imagem do ataque de veneno do chefão">
+<p>Ataque de veneno em área</p>
+<img src="imagens/ChefaoMeteoro.jpg" alt="Imagem do ataque de fezes do chefão">
+<p>Ataque de vezes do céu</p>
+
 
 
 
