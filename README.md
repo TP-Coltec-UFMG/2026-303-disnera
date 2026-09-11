@@ -66,7 +66,7 @@ Foram implementados quatro recursos de acessibilidade no sistema: modo de alto c
 <h2>Modo de alto contraste</h2>
 <p align="center">
 <img src=imagens/Contraste.jpg atl="Imagem da tela em alto contraste">
-<img src="imagens/ContrasteJogo.jpg atl"Imagem do jogo em modo alto contraste">
+<img src="imagens/ContrasteJogo.jpg atl="Imagem do jogo em modo alto contraste">
 </p>
 
 
