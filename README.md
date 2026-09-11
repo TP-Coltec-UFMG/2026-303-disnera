@@ -65,8 +65,13 @@ Foram implementados quatro recursos de acessibilidade no sistema: modo de alto c
 
 <h2>Modo de alto contraste (Menu)</h2>
 <img src=imagens/Contraste.jpg atl="Imagem da tela em alto contraste">
+<p>Modo de alto contraste proporcionando maior diferenciação visual entre os elementos da interface.</p>
 
 <h2>Aumento do tamanho das fontes</h2>
+<h3>Fonte pequena</h3>
+<img src=imagens/FontePqn.jpg atl="Imagem da fonte pequena">
+<h3>Fonte grande</h3>
+<img src=imagens/FonteGrnd.jpg atl="Imagem da fonte pequena">
 
 
 
