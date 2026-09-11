@@ -61,7 +61,7 @@ Nosso jogo será desenvolvido no Godot. Assim, nossa ideia é de o jogo se passe
 - *Voltar:* Voltar à tela anterior.
 
 <h3 align="center">Tela de controles</h3>
-<img src="menu_controles.jpeg" alt="Controles">
+<img src="imagens/Controles.jpg" alt="Controles">
 
 - *Controles:* Controles pré-definidos no jogo, podendo ser alterados para qualquer tecla ou botão do mouse que o jogador desejar.
 - *Voltar:* Voltar à tela anterior.
