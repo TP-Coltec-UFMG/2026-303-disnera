@@ -118,6 +118,10 @@ O jogo é um *Dungeon Crawler* em visão *top-down*. O jogador deverá atravessa
 <img src="imagens/ChefaoMeteoro.jpg" alt="Imagem do ataque de fezes do chefão">
 <p>Ataque de vezes do céu</p>
 
+## Mecânica extra
+O jogador pode conseguir corações ao matar os inimigos e assim recuperar sua vida. Isso tem o objetivo de deixar o jogo mais fácil e acessível a todos
+<img src="imagens/VidaExtra.jpg" alt="Imagem do coração">
+
 
 
 
