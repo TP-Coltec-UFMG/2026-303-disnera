@@ -101,7 +101,10 @@ O jogo é um *Dungeon Crawler* em visão *top-down*. O jogador deverá atravessa
 
 <h3 align="center">Imagens da segunda fase:</h3>
 <p>A segunda fase segue a mesma mecânica de progressão, na qual o jogador precisa eliminar todos os inimigos para avançar. Nesta fase, é adicionado o morcego, que possui um comportamento mais agressivo, realizando um dash em direção ao jogador e atacando-o, causando perda de vida.</p>
-<img src="imagens/Morcegos.jpg" alt="Imagem do início do jogo">
+<img src="imagens/Morcegos.jpg" alt="Imagem do morcego">
+
+<p>Além disso, a segunda fase conta com um puzzle de alavancas, no qual o jogador deve encontrar a sequência correta de ativação das alavancas para liberar a passagem e progredir para o próximo níve</p>
+<img src="imagens/Alavancas.jpg" alt="Imagem do minegame de alavancas">
 
 
 ## Conclusão
