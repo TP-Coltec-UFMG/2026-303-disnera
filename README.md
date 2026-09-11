@@ -93,10 +93,14 @@ Foram implementados quatro recursos de acessibilidade no sistema: modo de alto c
 ## Gameplay
 
 O jogo é um *Dungeon Crawler* em visão *top-down*. O jogador deverá atravessar diversos níveis da "masmorra" (o Esgoto), em busca de entender o mistério da Disnera:
+<p>O jogo é composto por uma mecânica de combate contra diversos inimigos, além da mecânica de dash, que auxilia na movimentação e na esquiva durante as batalhas. Também conta com puzzles que desafiam o jogador e complementam a experiência de gameplay.</p>
 
-<h3 align="center">Imagens de gameplay:</h3>
-<img src="gameplay.png" alt="Imagem de gameplay mostrando o protagonista fazendo um ataque na superfície">
-<p align="center"><small>(Por enquanto, o protagonista não entra no Esgoto)</small></p>
+<h3 align="center">Imagens da primeira fase:</h3>
+<p>O jogador inicia sua jornada no esgoto, onde precisa enfrentar e eliminar todos os inimigos presentes no nível para poder progredir. Enquanto houver inimigos vivos, o acesso ao próximo nível permanece bloqueado. Na primeira fase, o objetivo é derrotar todos os ratos ,que atacam o jogador melle, para liberar a passagem para a próxima área.</p>
+<img src="imagens/Inicio.png" alt="Imagem do início do jogo">
+
+<h3 align="center">Imagens da segunda fase:</h3>
+
 
 ## Conclusão
 
