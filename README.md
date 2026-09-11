@@ -101,7 +101,7 @@ O jogo é um *Dungeon Crawler* em visão *top-down*. O jogador deverá atravessa
 
 <h3 align="center">Imagens da segunda fase:</h3>
 <p>A segunda fase segue a mesma mecânica de progressão, na qual o jogador precisa eliminar todos os inimigos para avançar. Nesta fase, é adicionado o morcego, que possui um comportamento mais agressivo, realizando um dash em direção ao jogador e atacando-o, causando perda de vida.</p>
-<img src="imagens/Morcego.jpg" alt="Imagem do início do jogo">
+<img src="imagens/Morcegos.jpg" alt="Imagem do início do jogo">
 
 
 ## Conclusão
