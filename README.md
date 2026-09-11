@@ -97,7 +97,7 @@ O jogo é um *Dungeon Crawler* em visão *top-down*. O jogador deverá atravessa
 
 <h3 align="center">Imagens da primeira fase:</h3>
 <p>O jogador inicia sua jornada no esgoto, onde precisa enfrentar e eliminar todos os inimigos presentes no nível para poder progredir. Enquanto houver inimigos vivos, o acesso ao próximo nível permanece bloqueado. Na primeira fase, o objetivo é derrotar todos os ratos ,que atacam o jogador melle, para liberar a passagem para a próxima área.</p>
-<img src="imagens/Inicio.png" alt="Imagem do início do jogo">
+<img src="imagens/Inicio.jpg" alt="Imagem do início do jogo">
 
 <h3 align="center">Imagens da segunda fase:</h3>
 
