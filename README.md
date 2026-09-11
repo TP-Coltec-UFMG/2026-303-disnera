@@ -63,11 +63,11 @@ Nosso jogo será desenvolvido no Godot. Assim, nossa ideia é de o jogo se passe
 ## Acessibilidade 
 Foram implementados quatro recursos de acessibilidade no sistema: modo de alto contraste, aumento do tamanho das fontes, remapeamento dos controles e controle do áudio. A seguir, são apresentadas imagens demonstrando cada recurso e seus respectivos comparativos antes e depois da implementação
 
-<h2>Modo de alto contraste</h2>
-<p align="center">
+<h2>Modo de alto contraste (Menu)</h2>
 <img src=imagens/Contraste.jpg atl="Imagem da tela em alto contraste">
-<img src="imagens/ContrasteJogo.jpg atl="Imagem do jogo em modo alto contraste">
-</p>
+
+<h2>Aumento do tamanho das fontes</h2>
+
 
 
 
