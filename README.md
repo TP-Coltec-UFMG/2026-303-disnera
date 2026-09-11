@@ -95,16 +95,22 @@ Foram implementados quatro recursos de acessibilidade no sistema: modo de alto c
 O jogo é um *Dungeon Crawler* em visão *top-down*. O jogador deverá atravessar diversos níveis da "masmorra" (o Esgoto), em busca de entender o mistério da Disnera:
 <p>O jogo é composto por uma mecânica de combate contra diversos inimigos, além da mecânica de dash, que auxilia na movimentação e na esquiva durante as batalhas. Também conta com puzzles que desafiam o jogador e complementam a experiência de gameplay.</p>
 
-<h3 align="center">Imagens da primeira fase:</h3>
+<h3 align="center">Início</h3>
 <p>O jogador inicia sua jornada no esgoto, onde precisa enfrentar e eliminar todos os inimigos presentes no nível para poder progredir. Enquanto houver inimigos vivos, o acesso ao próximo nível permanece bloqueado. Na primeira fase, o objetivo é derrotar todos os ratos ,que atacam o jogador melle, para liberar a passagem para a próxima área.</p>
 <img src="imagens/Inicio.jpg" alt="Imagem do início do jogo">
 
-<h3 align="center">Imagens da segunda fase:</h3>
+<h3 align="center">Segunda fase - Morcegos e MineGame</h3>
 <p>A segunda fase segue a mesma mecânica de progressão, na qual o jogador precisa eliminar todos os inimigos para avançar. Nesta fase, é adicionado o morcego, que possui um comportamento mais agressivo, realizando um dash em direção ao jogador e atacando-o, causando perda de vida.</p>
 <img src="imagens/Morcegos.jpg" alt="Imagem do morcego">
 
 <p>Além disso, a segunda fase conta com um puzzle de alavancas, no qual o jogador deve encontrar a sequência correta de ativação das alavancas para liberar a passagem e progredir para o próximo níve</p>
 <img src="imagens/Alavancas.jpg" alt="Imagem do minegame de alavancas">
+
+<h3 align="center">Terceira fase - Escorpião</h3>
+<p>A terceira fase mantém os mesmos inimigos e a mesma mecânica de progressão, na qual o jogador precisa eliminar todos os inimigos para avançar. Como novidade, é introduzido o escorpião, um inimigo que se afasta do jogador enquanto realiza ataques à distância, lançando projéteis de veneno que causam dano ao jogador.</p>
+<img src="imagens/Escorpiao.jpg" alt="Imagem do Escorpiao">
+
+
 
 
 ## Conclusão
