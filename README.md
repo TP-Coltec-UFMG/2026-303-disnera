@@ -73,7 +73,11 @@ Foram implementados quatro recursos de acessibilidade no sistema: modo de alto c
 <h3>Fonte pequena</h3>
 <img src=imagens/FontePqn.jpg atl="Imagem da fonte pequena">
 <h3>Fonte grande</h3>
-<img src=imagens/FonteGrnd.jpg atl="Imagem da fonte pequena">
+<img src=imagens/FonteGrnd.jpg atl="Imagem da fonte grande">
+
+<h2>Remapeamento de controles</h2>
+<p>O remapeamento dos controles permite que o usuário personalize os comandos do jogo de acordo com suas preferências, tornando a experiência mais acessível e adaptável.</p>
+<img src=imagens/Controles.jpg atl="Imagem da tela de remapeamento de controles">
 
 
 
