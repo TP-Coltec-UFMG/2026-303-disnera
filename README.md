@@ -60,22 +60,8 @@ Nosso jogo será desenvolvido no Godot. Assim, nossa ideia é de o jogo se passe
 - *Tamanho da fonte:* Alterar o tamanho da fonte das palavras, altera as palavras das telas e dos diálogos durante o jogo.
 - *Voltar:* Voltar à tela anterior.
 
-<h3 align="center">Tela de controles</h3>
-<img src="imagens/Controles.jpg" alt="Controles">
-
-- *Controles:* Controles pré-definidos no jogo, podendo ser alterados para qualquer tecla ou botão do mouse que o jogador desejar.
-- *Voltar:* Voltar à tela anterior.
-
-<h3 align="center">Tela de áudio</h3>
-<img src="menu_audio.jpeg" alt="Áudio">
-
-- *Volume geral:* Aumentar ou dimimuir o som de tudo no jogo.
-- *Música:* Aumentar ou dimunuir o volume da música que toca ao fundo.
-- *Efeitos sonoros:* Aumentar ou diminuir o som dos efeitos do jogo
-- *Voltar:* Voltar à tela anterior.
-
 ## Acessibilidade 
-Foram implementados três recursos de acessibilidade no sistema: modo de alto contraste, aumento do tamanho das fontes e remapeamento dos controles. A seguir, são apresentadas imagens demonstrando cada recurso e seus respectivos comparativos antes e depois da implementação
+Foram implementados quatro recursos de acessibilidade no sistema: modo de alto contraste, aumento do tamanho das fontes, remapeamento dos controles e controle do áudio. A seguir, são apresentadas imagens demonstrando cada recurso e seus respectivos comparativos antes e depois da implementação
 
 
 
