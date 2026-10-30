@@ -1,3 +1,17 @@
 # Godot 4+ specific ignores
 .godot/
 /android/
+
+# Arquivos locais e saídas de desenvolvimento
+.agents/
+.aws/
+.codex/
+.env
+.env.*
+*.log
+*.tmp
+build/
+dist/
+
+# Pacotes locais de entrega
+entrega/

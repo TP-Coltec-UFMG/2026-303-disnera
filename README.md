@@ -1,130 +1,89 @@
-# 2026-303-Disnera
-Trabalho de Tópicos Especiais em POO do Colégio Técnico para a criação de um jogo, apelidado de Disnera. 🐀
+# Disnera — COLTEC
 
-## Membros do grupo
-- Arthur Emanuel 
-- Maria Eduarda
-- Paulo Henrique
-- Pedro Silva
-- Tiago Alves
+Jogo de ação e exploração top-down desenvolvido no Godot para o trabalho de Tópicos Especiais em POO do COLTEC/UFMG. Explore a escola, converse com a turma e desça aos esgotos para investigar a lenda da Disnera.
 
-## Sobre o jogo
-Nosso jogo será desenvolvido no Godot. Assim, nossa ideia é de o jogo se passe nos esgotos do COLTEC, no ano de 2024, onde 4 amigos adentraram no esgoto em busca de uma lenda chamada Disnera, um rato albino gigante que mata pessoas - pelo menos é isso o que as lendas dizem. Porém, os garotos nunca mais foram vistos. A polícia foi chamada, mas a UFMG e o COLTEC, com medo de terem sua imagem manchada, abafaram o caso, fazendo com que ele virasse apenas mais uma lenda falada dentro dos corredores do colégio. Entretando, em 2026, a mesma história se reascende com novos amigos que desejavam passar por uma aventura e descobrir a verdade por trás de toda a lenda.
+## Equipe
 
-## Especificações Gerais 
-- *Gênero:* Ação/Dungeon.
-- *Interface:* Top-Down (Perspectiva do jogador) - 
- Corações para representar a vida do jogagor, botão de menu para pausar, sair ou mudar as configurações do jogo, mapa mostrando as salas exploradas (GUI).
-- *Progressão da história:* Narrativa e relacional.
-- *Personagens e NPCs:* Jogador, Reppo (NPC de ajuda), Disnera (Boss), Baratas (inimigo), Ratos (inimigo), Escorpiões (inimigo), Morcego (inimigo).
-- *Cenários:* COLTEC e Esgoto.
-- *Público Alvo:* Jovens.
-- *Plataforma:* PC.
+Arthur Emanuel, Maria Eduarda, Paulo Henrique, Pedro Silva e Tiago Alves.
 
-## Telas
-- *Tela inicial:* Escolher se deseja começar a jogar, alterar alguma configuração ou sair do jogo.
-- *Tela começar jogo:* Escolher se deseja iniciar um novo save ou continuar o mesmo save.
-- *Tela de configurações:* Escolher para qual tela de configuração quer ir ou se quer voltar à tela anterior.
-- *Tela de acessibilidades:* Alterar as acessibilidades do jogo.
-- *Tela de controles:* Alterar os controles do jogo.
-- *Tela de audio*: Aumentar ou diminuir os sons do jogo.
+## Jogar e editar
 
-<h3 align="center">Tela inicial</h3>
-<img src="menu_inicial.jpeg" alt="Tela inicial"> 
- 
-- *Começar:* Iniciar o jogo. 
-- *Configurações:* Ir para tela de configurações para o jogador alterar o que desejar.
-- *Sair:* Fechar o jogo.
+1. Instale o **Godot 4.6** (versão usada na validação).
+2. Clone este repositório:
+   ```sh
+   git clone https://github.com/TP-Coltec-UFMG/2026-303-disnera.git
+   ```
+3. Importe o arquivo `project.godot` no Godot e aguarde a importação dos recursos.
+4. Pressione **F6** com `scenes/main.tscn` aberta ou **F5** para iniciar o projeto.
 
-<h3 align="center">Tela começar jogo</h3>
-<img src="menu_comecar.jpeg" alt="Tela começar jogo">
+O repositório contém o projeto-fonte completo. Não é necessário copiar a pasta de cache `.godot`. Em computadores com dificuldades com Vulkan, use o renderizador Compatibility:
 
-- *Novo jogo:* Iniciar o jogo do zero com um novo save.
-- *Continuar:* Continuar jogando da onde parou no último save criado.
-- *Voltar:* Voltar à tela anterior.
+```sh
+godot --path . --rendering-method gl_compatibility
+```
 
-<h3 align="center">Tela de configurações</h3>
-<img src="menu_configuracoes.jpeg" alt="Configurações">
+## O que há nesta versão
 
-- *Acessibilidade:* Ir à tela de acessibilidades.
-- *Controles:* Ir à tela dos controles do jogo.
-- *Som:* Ir à tela de sons do jogo.
-- *Voltar:* Voltar à tela anterior.
+- Hall do COLTEC com Duda, PH, Saci, Tigas, Pedro Silva Freitas e a banda **Toquempé** no evento Senta e Toca.
+- Laboratório de informática ampliado, 38 estudantes, computadores e **Leando Maia** ensinando Java. Três atividades: prever saídas, depurar e montar um programa.
+- Sala de metal com **Geovane**, circuito de drenagem e acesso ao túnel externo.
+- Torneio **Dinsara × Estelionatários**, com atletas animados e disputa jogável de pênaltis.
+- Cinco setores de esgoto, armas, loja, curativos, combo, ataque forte, aparo e dash.
+- Morcegos com mergulho sinalizado, escorpiões com tiros alternados e Ratão sem dano de contato.
+- Refúgio disponível somente após eliminar os inimigos da sala.
+- Diário com papel pautado, conversas em balões e interfaces próprias para cada atividade.
 
-<h3 align="center">Tela de acessibilidades</h3>
-<img src="menu_acessibilidades.jpeg" alt="Acessibilidade"> 
+Depois do Ratão, o jogador retorna ao COLTEC vazio, no fim do ano, com chuva nas áreas externas e três atividades de lembranças. Os campos destinados à lore futura estão em `data/epilogue_memories.json`.
 
-- *Legenda:* Ativar ou desativar legendas nos diálogos do protagonista ou dos NPCs, ideal para pessoas que sofrem de deficiência auditiva.
-- *Dificuldade:* O jogador tem a opção de escolher a dificuldade que quer jogar.
-- *Contraste:* Alterar cores do jogo, ideal para pessoas que possuem deficiência ocular.
-- *Tamanho da fonte:* Alterar o tamanho da fonte das palavras, altera as palavras das telas e dos diálogos durante o jogo.
-- *Voltar:* Voltar à tela anterior.
+![Hall do COLTEC](output/coltec/hall.png)
+![Laboratório de informática](output/coltec/laboratorio_turma.png)
 
-## Acessibilidade 
-Foram implementados quatro recursos de acessibilidade no sistema: modo de alto contraste, aumento do tamanho das fontes, remapeamento dos controles e controle do áudio. A seguir, são apresentadas imagens demonstrando cada recurso e seus respectivos comparativos antes e depois da implementação
+## Controles
 
-<h2>Modo de alto contraste (Menu)</h2>
-<p>Modo de alto contraste proporcionando maior diferenciação visual entre os elementos da interface.</p>
-<img src=imagens/Contraste.jpg atl="Imagem da tela em alto contraste">
+| Ação | Controle |
+|---|---|
+| Andar | WASD ou setas |
+| Interagir / conversar / entrar | E |
+| Ataque básico | Clique esquerdo ou direito |
+| Ataque forte | F |
+| Aparar | R |
+| Dash | Espaço, Q ou Shift |
+| Mochila e diário | Tab |
+| Fechar interação | Escape |
 
+F e R consomem energia, que se recupera com o tempo. O terceiro ataque de um combo causa mais dano. Equipamentos e curativos são gerenciados pela mochila.
 
-<h2>Aumento do tamanho das fontes</h2>
+## Progresso e limites
 
-<p>Comparativo antes e depois da aplicação do aumento do tamanho das fontes, facilitando a leitura e a visualização das informações apresentadas na interface.</p>
+O progresso do jogo é mantido durante a sessão; **não há salvamento da campanha em disco**. Iniciar um novo jogo reinicia a campanha. As configurações do menu podem ter persistência própria. Os exercícios de Java são puzzles de lógica, não um compilador nem um executor de código.
 
-<h3>Fonte pequena</h3>
-<img src=imagens/FontePqn.jpg atl="Imagem da fonte pequena">
+Os personagens e diálogos são representações ficcionais. Esta versão mantém espaço para complementar a história futuramente.
 
-<h3>Fonte grande</h3>
-<img src=imagens/FonteGrnd.jpg atl="Imagem da fonte grande">
+## Estrutura
 
-<h2>Remapeamento de controles</h2>
-<p>O remapeamento dos controles permite que o usuário personalize os comandos do jogo de acordo com suas preferências, tornando a experiência mais acessível e adaptável.</p>
+- `Scripts/`, `scenes/`: lógica e cenas do jogo.
+- `Imagens/`, `Musica/`, `Fonts/`, `Temas/`, `Shaders/`: recursos visuais, áudio e interface.
+- `Cute_Fantasy_Free/`, `RF_Catacombs_v1.0/`: pacotes de recursos usados pelo projeto.
+- `data/`: turma e textos das lembranças.
+- `tests/`: testes de integração e geração de capturas.
+- [Detalhes da expansão](EXPANSAO_COLTEC.md).
+- [Histórico das alterações](HISTORICO_ALTERACOES.md).
+- [Documentação técnica do módulo de menu](DOCUMENTACAO_MENU.md).
 
-<img src=imagens/Controles.jpg atl="Imagem da tela de remapeamento de controles">
+## Validação
 
-<h2>Configurações de Som</h2>
-<p>Os recursos sonoros auxiliam na identificação de eventos e interações, oferecendo ao jogador um feedback adicional além dos elementos visuais.</p>
-<img src=imagens/Som.jpg atl="Imagem da tela de som">
+Importe antes de executar os testes em uma cópia nova:
 
+```sh
+godot --headless --path . --editor --import --quit
+godot --headless --path . res://tests/adventure_test.tscn
+godot --headless --path . res://tests/epilogue_test.tscn
+godot --headless --path . res://tests/turma_combat_test.tscn
+godot --headless --path . res://tests/java_ui_test.tscn
+```
 
+Os testes verificam progressão, refúgio, combate, NPCs, torneio, exercícios, interfaces e epílogo. Há avisos conhecidos de instâncias/recursos pendentes ao encerrar alguns testes; isso não equivale a uma asserção aprovada. Confira as mensagens `PASS` e eventuais `SCRIPT ERROR`.
 
+## Recursos e autoria
 
-## Gameplay
-
-O jogo é um *Dungeon Crawler* em visão *top-down*. O jogador deverá atravessar diversos níveis da "masmorra" (o Esgoto), em busca de entender o mistério da Disnera:
-<p>O jogo é composto por uma mecânica de combate contra diversos inimigos, além da mecânica de dash, que auxilia na movimentação e na esquiva durante as batalhas. Também conta com puzzles que desafiam o jogador e complementam a experiência de gameplay.</p>
-
-<h3 align="center">Início</h3>
-<p>O jogador inicia sua jornada no esgoto, onde precisa enfrentar e eliminar todos os inimigos presentes no nível para poder progredir. Enquanto houver inimigos vivos, o acesso ao próximo nível permanece bloqueado. Na primeira fase, o objetivo é derrotar todos os ratos ,que atacam o jogador melle, para liberar a passagem para a próxima área.</p>
-<img src="imagens/Inicio.jpg" alt="Imagem do início do jogo">
-
-<h3 align="center">Segunda fase - Morcegos e MineGame</h3>
-<p>A segunda fase segue a mesma mecânica de progressão, na qual o jogador precisa eliminar todos os inimigos para avançar. Nesta fase, é adicionado o morcego, que possui um comportamento mais agressivo, realizando um dash em direção ao jogador e atacando-o, causando perda de vida.</p>
-<img src="imagens/Morcegos.jpg" alt="Imagem do morcego">
-
-<p>Além disso, a segunda fase conta com um puzzle de alavancas, no qual o jogador deve encontrar a sequência correta de ativação das alavancas para liberar a passagem e progredir para o próximo níve</p>
-<img src="imagens/Alavancas.jpg" alt="Imagem do minegame de alavancas">
-
-<h3 align="center">Terceira fase - Escorpião</h3>
-<p>A terceira fase mantém os mesmos inimigos e a mesma mecânica de progressão, na qual o jogador precisa eliminar todos os inimigos para avançar. Como novidade, é introduzido o escorpião, um inimigo que se afasta do jogador enquanto realiza ataques à distância, lançando projéteis de veneno que causam dano ao jogador.</p>
-<img src="imagens/Escorpiao.jpg" alt="Imagem do Escorpiao">
-
-<h3 align="center">Luta contra o Boss</h3>
-<p>A batalha final ocorre contra o boss Disnera, que possui diferentes tipos de ataque. Ele pode realizar ataques corpo a corpo, lançar uma rajada de veneno que causa dano em área e arremessar grandes pedaços de fezes que caem do céu, causando dano ao jogador. Após derrotar o boss, o jogador vence a partida e consegue finalmente sair do esgoto.</p>
-
-<img src="imagens/ChefaoArea.jpg" alt="Imagem do ataque de veneno do chefão">
-<p>Ataque de veneno em área</p>
-<img src="imagens/ChefaoMeteoro.jpg" alt="Imagem do ataque de fezes do chefão">
-<p>Ataque de vezes do céu</p>
-
-## Mecânica extra
-O jogador pode conseguir corações ao matar os inimigos e assim recuperar sua vida. Isso tem o objetivo de deixar o jogo mais fácil e acessível a todos
-<img src="imagens/VidaExtra.jpg" alt="Imagem do coração">
-
-
-
-
-## Conclusão
-
-O projeto do jogo Disnera é uma iniciativa pequena, mas ambiciosa, para criar uma experiência imersiva e narrativa dentro de um ambiente inspirado no próprio COLTEC, misturando elementos de ação, exploração e suspense. Além de desenvolver um jogo com mecânicas e interfaces funcionais, o grupo pretende construir uma atmosfera envolvente, utilizando a lenda criada dentro do jogo, em torno da criatura Disnera, como o elemento principal da narrativa. Dessa forma, o trabalho também contribui para o aprendizado prático de conceitos de programação orientada a objetos, desenvolvimento de interfaces e organização de projetos em equipe, unindo criatividade e desenvolvimento técnico em um único projeto que promete ser divertido, intuitivo e desafiador.
+A arte do protagonista foi mantida; NPCs reutilizam suas animações com paletas próprias. Parte dos cenários foi produzida com ferramentas de geração de imagens e posteriormente integrada ao jogo; prompts e histórico estão em `Imagens/Coltec/`. Laboratório, mesas, efeitos e interfaces também usam desenho em código. Preserve os avisos e licenças dos pacotes de terceiros ao redistribuir.

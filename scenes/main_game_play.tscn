@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://bdoi6cmlgcx67"]
+
+[ext_resource type="Script" uid="uid://cnl2piurvmcq7" path="res://Scripts/main_game_play.gd" id="1_bgmuf"]
+[ext_resource type="PackedScene" uid="uid://d4bh80q236g7g" path="res://scenes/Level/level_1.tscn" id="1_eg5v1"]
+[ext_resource type="PackedScene" uid="uid://cim2u2hmewyxo" path="res://scenes/hud.tscn" id="3_guypc"]
+
+[node name="MainGamePlay" type="Node2D" unique_id=420166347]
+script = ExtResource("1_bgmuf")
+
+[node name="LevelRoot" parent="." unique_id=424079747 instance=ExtResource("1_eg5v1")]
+
+[node name="HUD" parent="." unique_id=912128310 instance=ExtResource("3_guypc")]

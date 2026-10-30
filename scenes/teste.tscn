@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://gb7fchxrobrr"]
+
+[ext_resource type="PackedScene" uid="uid://debib7qefvkwx" path="res://scenes/Player.tscn" id="1_3r2dd"]
+[ext_resource type="TileSet" uid="uid://2clkqou2ha1b" path="res://Cute_Fantasy_Free/Tiles/tileset.tres" id="2_dp01m"]
+[ext_resource type="PackedScene" uid="uid://doat6ibuccg88" path="res://scenes/rato.tscn" id="3_8cswh"]
+
+[node name="Main" type="Node2D" unique_id=1560629930]
+
+[node name="Teste" parent="." unique_id=561681865 instance=ExtResource("1_3r2dd")]
+position = Vector2(396, 296)
+
+[node name="TileMapLayer" type="TileMapLayer" parent="." unique_id=1001880031]
+scale = Vector2(3, 3)
+tile_set = ExtResource("2_dp01m")
+
+[node name="Rato" parent="." unique_id=1654131701 instance=ExtResource("3_8cswh")]
+position = Vector2(797, 202)

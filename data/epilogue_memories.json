@@ -1,0 +1,22 @@
+{
+  "coltec": {
+    "titulo": "Papéis da despedida",
+    "instrucao": "Coloque as folhas na ordem do último dia: primeiro a aula, depois a formatura, por último a despedida.",
+    "fragmentos": ["Última aula", "Entrega dos diplomas", "Despedida no portão"],
+    "registro": "Guardei três papéis do último dia. A turma se formou. A escola ficou em silêncio.",
+    "lore": ""
+  },
+  "melodia": {
+    "titulo": "A última melodia",
+    "instrucao": "Olhe a sequência por alguns segundos e repita as quatro notas. Não há pressa nem punição por errar.",
+    "registro": "O teclado ainda funciona. Toquei uma frase curta no lugar onde antes havia uma banda.",
+    "lore": ""
+  },
+  "disnara": {
+    "titulo": "Arquivo molhado · Disnara",
+    "instrucao": "Encontre os três pares de marcas nas seis folhas. As páginas estão manchadas pela água.",
+    "simbolos": ["RATO", "TÚNEL", "COLTEC"],
+    "registro": "Juntei as folhas marcadas com um rato, um túnel e o nome da escola. Ainda há trechos ilegíveis.",
+    "lore": ""
+  }
+}
