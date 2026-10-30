@@ -19,7 +19,7 @@ func _ready() -> void:
 func _sync_sliders():
 	master_slider.value = _db_to_slider(AudioServer.get_bus_volume_db(AudioServer.get_bus_index("Master")))
 	music_slider.value = _db_to_slider(AudioServer.get_bus_volume_db(AudioServer.get_bus_index("Music")))
-	efeito_slider.value = _db_to_slider(AudioServer.get_bus_volume_db(AudioServer.get_bus_index("Efeitos")))
+	efeito_slider.value = _db_to_slider(AudioServer.get_bus_volume_db(AudioServer.get_bus_index("Efeitos Sonoros")))
 
 
 func _slider_to_db(valor: float) -> float:
@@ -48,6 +48,6 @@ func _on_master_volume_changed(valor: float):
 func _on_music_volume_changed(valor: float):
 	defineVolume("Music", valor)
 func _on_efeitos_volume_changed(valor: float):
-	defineVolume("Efeitos", valor)
+	defineVolume("Efeitos Sonoros", valor)
 	
 	
